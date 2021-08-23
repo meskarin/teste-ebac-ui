@@ -12,7 +12,7 @@ describe('Página de produtos', () => {
             .click()
     });
 
-    it.only('Deve adicionar ao carrinh', () => {
+    it('Deve adicionar ao carrinho com sucesso', () => {
         var quantidade = 6
 
         cy.get('[class="product-block grid"]')
@@ -27,5 +27,15 @@ describe('Página de produtos', () => {
 
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain', quantidade)
         cy.get('.woocommerce-message').should('contain', quantidade + ' × “Atlas Fitness Tank” foram adicionados no seu carrinho.')
+    });
+
+    it.only('Deve adicionar produto ao carrinho - Comando customizado', () => {
+        cy.addProduto("Abominable Hoodie", "XS", "Blue", 3)
+        
+    });
+
+    it.only('Deve adicionar produto ao carrinho - Comando customizado', () => {
+        cy.addProduto("Apollo Running Short", "32", "Black", 30)
+        
     });
 });
