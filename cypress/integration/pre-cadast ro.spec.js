@@ -1,10 +1,11 @@
-/// <reference typer="cypress" />
+/// <reference types="cypress" />
+
 var faker = require('faker')
 
 describe('Funcionalidade Pré Cadastro', () => {
 
 beforeEach(() => {
-    cy.visit('http://lojaebac.ebaconline.art.br/my-account/')
+    cy.visit('my-account/')
 });
 
     it('Deve completar o pré ca dastro com sucesso', () => {
