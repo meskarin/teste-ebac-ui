@@ -1,0 +1,55 @@
+[
+    {
+        "nome": "Ana",
+        "sobrenome": "Furtado",
+        "empresa" : "Cooper",
+        "endereco" : "rua das bananas",
+        "numero" : "80",
+        "cidade" : "Maringá",
+        "pais" : "Brasil",
+        "estado" : "Paraná",
+        "cep" : "87023150",
+        "telefone" : "4498663236",
+        "email" : "teste@outlook.com"
+
+    },
+    {
+        "nome": "Gary",
+        "sobrenome": "Holt",
+        "empresa" : "Cooper Card",
+        "endereco" : "rua washington",
+        "numero" : "666",
+        "cidade" : "Belo Horizonte",
+        "pais" : "Brasil",
+        "estado" : "Paraná",
+        "cep" : "87023110",
+        "telefone" : "4498666666",
+        "email" : "teste666@outlook.com"
+    },
+    {
+        "nome": "Bary",
+        "sobrenome": "White",
+        "empresa" : "Love Story",
+        "endereco" : "rua Lary Maroni",
+        "numero" : "69",
+        "cidade" : "Rio de Janeiro",
+        "pais" : "Brasil",
+        "estado" : "Rio de janeiro",
+        "cep" : "22023150",
+        "telefone" : "44968969696",
+        "email" : "teste@outlook.com"
+    },
+    {
+        "nome": "Lie",
+        "sobrenome": "Murai",
+        "empresa" : "ACEMA",
+        "endereco" : "Av Kakogawa",
+        "numero" : "89",
+        "cidade" : "Londrina",
+        "pais" : "Brasil",
+        "estado" : "Paraná",
+        "cep" : "87023100",
+        "telefone" : "4498663236",
+        "email" : "lie@outlook.com"
+    }
+]

@@ -29,12 +29,12 @@ describe('Página de produtos', () => {
         cy.get('.woocommerce-message').should('contain', quantidade + ' × “Atlas Fitness Tank” foram adicionados no seu carrinho.')
     });
 
-    it.only('Deve adicionar produto ao carrinho - Comando customizado', () => {
+    it('Deve adicionar produto ao carrinho - Comando customizado', () => {
         cy.addProduto("Abominable Hoodie", "XS", "Blue", 3)
         
     });
 
-    it.only('Deve adicionar produto ao carrinho - Comando customizado', () => {
+    it('Deve adicionar produto ao carrinho - Comando customizado', () => {
         cy.addProduto("Apollo Running Short", "32", "Black", 30)
         
     });
